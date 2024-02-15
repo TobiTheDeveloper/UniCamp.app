@@ -1,5 +1,11 @@
-@media only screen and (min-width: 481px) and (max-width: 767px) {
+@media only screen and (max-width: 480px) {
   .headerMain .navbar {
     background-color: red;
+  }
+  .headerMain .navbar__logo {
+    font-size: 20px;
+    line-height: 112px;
+    height: 100%;
+    width: 30%;
   }
 }/*# sourceMappingURL=styles.css.map */

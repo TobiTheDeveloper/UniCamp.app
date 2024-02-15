@@ -1,9 +1,17 @@
 @import '_media-queries';
 
 .headerMain {
-    @include mediumPhones {
+    @include smallPhones {
         .navbar {
             background-color: red;
+            
+            &__logo {
+                font-size: 20px;
+                line-height: 112px;
+                height: 100%;
+                width: 30%;
+
+            }
         }
     }
 }
