@@ -1,0 +1,9 @@
+@import '_media-queries';
+
+.headerMain {
+    @include mediumPhones {
+        .navbar {
+            background-color: red;
+        }
+    }
+}
