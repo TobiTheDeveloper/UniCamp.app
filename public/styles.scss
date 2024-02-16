@@ -1,3 +1,23 @@
 @import '_navbar.scss';
 @import '_color';
 @import '_media-queries';
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.firstMainContainer {
+    @include smallPhones {
+        margin-top: 0.9em;
+        padding: 1em;
+        border: 1px solid black;
+        p {
+            font-size: 1em;
+            span {
+                font-weight: bold;
+                text-align: center;
+            }
+        }
+    }
+}

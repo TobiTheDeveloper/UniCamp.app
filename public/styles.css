@@ -1,18 +1,35 @@
 @media only screen and (max-width: 480px) {
-  .headerMain .navbar {
-    background-color: red;
-  }
-  .headerMain .navbar__logo {
+  .headerNav .navbar__logo {
     font-size: 20px;
     line-height: 112px;
     height: 100%;
     width: 30%;
   }
-  .headerMain .navbar .navbar-toggler {
+  .headerNav .navbar .navbar-toggler {
     border: none;
     outline: none;
   }
-  .headerMain .navbar .btn {
+  .headerNav .navbar .btn {
     margin: 0.5em;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 480px) {
+  .firstMainContainer {
+    margin-top: 0.9em;
+    padding: 1em;
+    border: 1px solid black;
+  }
+  .firstMainContainer p {
+    font-size: 1em;
+  }
+  .firstMainContainer p span {
+    font-weight: bold;
+    text-align: center;
   }
 }/*# sourceMappingURL=styles.css.map */

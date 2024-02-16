@@ -1,10 +1,8 @@
 @import '_media-queries';
 
-.headerMain {
+.headerNav {
     @include smallPhones {
-        .navbar {
-            background-color: red;
-            
+        .navbar {            
             &__logo {
                 font-size: 20px;
                 line-height: 112px;
