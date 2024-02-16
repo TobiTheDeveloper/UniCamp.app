@@ -25,11 +25,12 @@ body {
   }
   .firstMainContainer .mainPic {
     width: 100%;
-    border-radius: 20px;
   }
   .firstMainContainer p {
     font-size: 1em;
     padding: 1em;
+    letter-spacing: 0.1em;
+    line-height: 2em;
   }
   .firstMainContainer p span {
     font-weight: bold;
