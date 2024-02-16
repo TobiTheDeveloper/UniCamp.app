@@ -19,12 +19,27 @@ body {
             padding: 1em;
             letter-spacing: 0.1em;
             line-height: 2em;
+            text-align: center;
 
             span {
                 font-weight: bold;
                 text-align: center;
                 letter-spacing: 0.2em;
             }
+        }
+
+        .tryBtn  {
+            border: none;
+            width: 30%;
+            height: 2.6em;
+            border-radius: 20px;
+            background-color: $Dominate;
+            color: black;
+            font-weight: bold;
+            margin-left: auto;
+            margin-right:auto;
+            margin-top: 30px;
+            display: block;
         }
     }
 }
