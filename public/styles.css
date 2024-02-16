@@ -23,7 +23,6 @@ body {
   .firstMainContainer {
     margin-top: 0.9em;
     padding: 1em;
-    border: 1px solid black;
   }
   .firstMainContainer p {
     font-size: 1em;
@@ -31,5 +30,6 @@ body {
   .firstMainContainer p span {
     font-weight: bold;
     text-align: center;
+    letter-spacing: 0.2em;
   }
 }/*# sourceMappingURL=styles.css.map */

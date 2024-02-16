@@ -11,12 +11,12 @@ body {
     @include smallPhones {
         margin-top: 0.9em;
         padding: 1em;
-        border: 1px solid black;
         p {
             font-size: 1em;
             span {
                 font-weight: bold;
                 text-align: center;
+                letter-spacing: 0.2em;
             }
         }
     }
