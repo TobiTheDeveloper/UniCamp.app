@@ -8,4 +8,11 @@
     height: 100%;
     width: 30%;
   }
+  .headerMain .navbar .navbar-toggler {
+    border: none;
+    outline: none;
+  }
+  .headerMain .navbar .btn {
+    margin: 0.5em;
+  }
 }/*# sourceMappingURL=styles.css.map */
