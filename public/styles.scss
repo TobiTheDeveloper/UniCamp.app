@@ -7,7 +7,7 @@ body {
     padding: 0;
 }
 
-.firstMainContainer {
+.bodyContainer {
     @include smallPhones {
         margin-top: 0.9em;
         .mainPic {

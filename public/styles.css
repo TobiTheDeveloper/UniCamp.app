@@ -20,25 +20,25 @@ body {
 }
 
 @media only screen and (max-width: 480px) {
-  .firstMainContainer {
+  .bodyContainer {
     margin-top: 0.9em;
   }
-  .firstMainContainer .mainPic {
+  .bodyContainer .mainPic {
     width: 99%;
   }
-  .firstMainContainer p {
+  .bodyContainer p {
     font-size: 1em;
     padding: 1em;
     letter-spacing: 0.1em;
     line-height: 2em;
     text-align: center;
   }
-  .firstMainContainer p span {
+  .bodyContainer p span {
     font-weight: bold;
     text-align: center;
     letter-spacing: 0.2em;
   }
-  .firstMainContainer .tryBtn {
+  .bodyContainer .tryBtn {
     border: none;
     width: 30%;
     height: 2.6em;
@@ -52,7 +52,7 @@ body {
     margin-bottom: 90px;
     display: block;
   }
-  .firstMainContainer .footer {
+  .bodyContainer .footer {
     position: relative;
     top: auto;
     left: 0;
