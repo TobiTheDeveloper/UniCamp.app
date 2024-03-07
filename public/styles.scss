@@ -43,9 +43,10 @@ body {
         }
 
         .footer {
-            position: fixed;
+            position: absolute;
+            left: 0;
             bottom: 0;
-            width: auto;
+            width: 100%;
             background-color: $Dominate;
             color: black;
             text-align: center;
