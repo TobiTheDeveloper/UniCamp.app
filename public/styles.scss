@@ -44,11 +44,11 @@ body {
         }
 
         .footer {
-            position: absolute;
+            position:relative;
             top: auto;
             left: 0;
             bottom: 0px;
-            width: auto;
+            width: 100%;
             background-color: $Dominate;
             color: black;
             text-align: center;
