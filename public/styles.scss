@@ -39,6 +39,7 @@ body {
             margin-left: auto;
             margin-right:auto;
             margin-top: 30px;
+            margin-bottom: 15px;
             display: block;
         }
 
@@ -47,7 +48,7 @@ body {
             top: auto;
             left: 0;
             bottom: 0;
-            width: 100%;
+            width: auto;
             background-color: $Dominate;
             color: black;
             text-align: center;
