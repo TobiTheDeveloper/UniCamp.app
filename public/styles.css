@@ -53,7 +53,7 @@ body {
     display: block;
   }
   .firstMainContainer .footer {
-    position: relative;
+    position: absolute;
     top: auto;
     left: 0;
     bottom: 0px;
