@@ -9,6 +9,9 @@
     border: none;
     outline: none;
   }
+  .headerNav .navbar button {
+    margin: 8px;
+  }
 }
 
 body {
@@ -48,7 +51,12 @@ body {
     margin-top: 30px;
     display: block;
   }
-  .firstMainContainer footer p {
+  .firstMainContainer .footer {
+    position: fixed;
+    bottom: 0;
+    width: auto;
+    background-color: #87CEEB;
+    color: black;
     text-align: center;
   }
 }/*# sourceMappingURL=styles.css.map */

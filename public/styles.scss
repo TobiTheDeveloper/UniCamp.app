@@ -42,10 +42,13 @@ body {
             display: block;
         }
 
-        footer {
-          p { text-align: center;
-            
-            }
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: auto;
+            background-color: $Dominate;
+            color: black;
+            text-align: center;
         }
     }
 }
