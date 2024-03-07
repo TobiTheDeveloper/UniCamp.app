@@ -17,3 +17,7 @@ function closeBtn() {
         button.innerHTML = '<span class="navbar-toggler-icon"></span>';
     }
 }
+
+function openLoginPage() {
+    window.open('file://views/login.html');
+}
